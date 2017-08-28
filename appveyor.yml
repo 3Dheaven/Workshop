@@ -5,6 +5,8 @@ branches:
 skip_tags: true
 max_jobs: 1
 clone_folder: C:\projects\Workshop
+clone_script: 
+ - cmd: git submodule update --init --recursive
 test: off
 
 os: Visual Studio 2015
