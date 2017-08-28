@@ -4,7 +4,7 @@ branches:
   - master
 skip_tags: true
 max_jobs: 1
-clone_folder: C:\projects\YEngine
+clone_folder: C:\projects\Workshop
 test: off
 
 os: Visual Studio 2015
