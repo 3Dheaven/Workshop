@@ -1,0 +1,3 @@
+[submodule "deps/YEngine"]
+	path = deps/YEngine
+	url = https://github.com/3Dheaven/YEngine.git
