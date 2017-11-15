@@ -24,7 +24,6 @@ build_script:
  - msbuild Application.sln /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
  
 install:
-  - cd C:\projects
   - cmd: git submodule -q update --init --recursive
   # Create directory to store dependencies
   - mkdir C:\projects\deps
